@@ -5,7 +5,7 @@ const PrivacyContent = () => {
     <div>
         <div>
       
-        <div className="bg-[#7481FF] ">
+        <div className="bg-[#fd0223] ">
           <div className="bg-[#007aff]" style={{background: 'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")'}}>
             <div className=" p-5 mx-auto flex items-start">
               <h1 className="py-10  sm:pl-20 leading-tight  font-extrabold text-white text-pretty text-2xl sm:text-5xl" style={{fontFamily: '"Gilroy", sans-serif'}}>
