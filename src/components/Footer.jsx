@@ -1,12 +1,13 @@
 import React from 'react';
-
+import logo from '../assets/logo.jpeg'
 const Footer = () => {
   return (
-    <footer className="bg-indigo-400 py-6 pb-28 sm:px-16">
+    <footer className="bg-[#fd0223] py-6 pb-28 sm:px-16">
           <div className="container mx-auto text-white">
             <div className="flex justify-between items-center flex-wrap">
               <div className="flex-col  items-center">
-                <img src="	https://vehicleapprovalcentre.com/_next/static/media/logo-white.27f29529.svg" alt="VAC Logo" className=" mb-5 ml-3" />
+              <img src={logo} className="size-[50px] rounded-full mb-4" alt="" />
+
                 <p className="text-sm mt-2 ml-3 md:mt-0">© Copyright 2024 Vehicle Approval Centre.</p>
               </div>
               {/* Navigation Links */}

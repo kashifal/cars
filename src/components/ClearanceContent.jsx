@@ -4,7 +4,7 @@ const ClearanceContent = () => {
   return (
     <div>
       <div>
-        <div className="bg-[#7481FF] mt-20">
+        <div className="bg-[#fd0223] mt-20">
           <div className="bg-[#007aff]" style={{background: 'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")'}}>
             <div className=" p-5 mx-auto flex items-start">
               <h1 className="py-10  sm:pl-20  font-extrabold text-white text-5xl" style={{fontFamily: '"Gilroy", sans-serif'}}>
@@ -30,21 +30,21 @@ const ClearanceContent = () => {
               <div className="mt-4 p-4">
                 <h3 className="text-lg font-semibold">{car.name}</h3>
                 <p className="text-gray-600">{car.model}</p>
-                <p className="text-xl font-bold text-indigo-600 mt-2">${car.price}</p>
+                <p className="text-xl font-bold text-[#fd0223] mt-2">${car.price}</p>
                 <div className="flex justify-between mt-4 text-sm text-gray-500">
                   <span>{car.km} km</span>
                   <span>{car.transmission}</span>
                 </div>
                 <div className="flex gap-2 mt-4">
-                  <button className="w-1/2 py-2 text-indigo-600 border border-indigo-600 rounded hover:bg-indigo-50">View Details</button>
-                  <button className="w-1/2 py-2 text-white bg-indigo-600 rounded hover:bg-indigo-700">Apply Now</button>
+                  <button className="w-1/2 py-2 text-[#fd0223] border border-[#fd0223] rounded hover:bg-indigo-50">View Details</button>
+                  <button className="w-1/2 py-2 text-white bg-[#fd0223] rounded  ">Apply Now</button>
                 </div>
               </div>
             </div>
           ))}
           
         </div>
-        <div className="bg-[#7481ff] xl:mx-28 shadow-neutral-600 shadow-2xl bg-cover mt-5 mb-5 bg-top text-center" style={{backgroundImage: 'url("https://vehicleapprovalcentre.com/_next/static/media/front-lead-bg.2c0e8fe8.svg")', backgroundSize: '110%'}}>
+        <div className="bg-[#fd0223] xl:mx-28 shadow-neutral-600 shadow-2xl bg-cover mt-5 mb-5 bg-top text-center" style={{backgroundImage: 'url("https://vehicleapprovalcentre.com/_next/static/media/front-lead-bg.2c0e8fe8.svg")', backgroundSize: '110%'}}>
       <div className="pt-3  w-full">
         <div className>
           <div className>
@@ -52,7 +52,7 @@ const ClearanceContent = () => {
               <section className="sm:flex-row  flex-col flex items-center mx-4 justify-between ">
                 <img src="https://cfctradein.azureedge.net/images/carfax-canada-logo-black.svg" alt="Carfax Canada Logo" className />
                 <h2 className="text-xl mb-2 font-bold">Find out what your trade-in is worth.</h2>
-                <button className="bg-[#4053f7] rounded hover:bg-blue-800 duration-300 px-6 py-2 text-white">Get Started</button>
+                <button className="bg-[#fd0223] rounded hover:bg-[#fd0223] duration-300 px-6 py-2 text-white">Get Started</button>
               </section>
             </div>
           </div>
@@ -60,7 +60,7 @@ const ClearanceContent = () => {
       </div>
       <h3 className="text-white font-bold text-center pt-3 px-2">Don't see what you're looking for?</h3>
       <h5 className="text-white font-light px-2">We have access to thousands of vehicles. Just let us know what your dream car is!</h5>
-      <a id="contact" className=" mt-2 mb-3 rounded font-bold text-lg  text-[#7481ff] bg-white hover:bg-gray-200 py-4 px-2 inline-flex items-center" href="/contact">
+      <a id="contact" className=" mt-2 mb-3 rounded font-bold text-lg  text-[#fd0223] bg-white hover:bg-gray-200 py-4 px-2 inline-flex items-center" href="/contact">
         Contact Us
         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" className="w-5 mx-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
           <path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />

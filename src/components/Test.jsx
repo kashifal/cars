@@ -5,7 +5,7 @@ const Test = () => {
     <div>
       <div>
         <div className="fixed z-[9999999999] bottom-4 right-4">
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-10 cursor-pointer h-10 bg-[#7481ff] p-2 rounded-full text-white" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="white" d="M6.455 19L2 22.5V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1z" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" className="w-10 cursor-pointer h-10 bg-[#fd0223] p-2 rounded-full text-white" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="white" d="M6.455 19L2 22.5V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1z" /></svg>
         </div>
       </div>
       <div className="lg:px-28 fixed z-[9999999999] top-0 w-full bg-white">
@@ -16,8 +16,8 @@ const Test = () => {
             </a>
             <div className="flex gap-[100px] mr-11 px-9 items-center">
               <div className="flex gap-3">
-                <a role="button" tabIndex={0} href="#" className="hidden border border-[#7481ff] px-4 py-2 text-[#7481ff] hover:bg-gray-200 duration-300 sm:block">INVENTORY</a>
-                <a role="button" tabIndex={0} href="#" className="hidden bg-indigo-500 px-5 py-2 text-white hover:bg-indigo-700 duration-300 md:block">GET APPROVED NOW</a>
+                <a role="button" tabIndex={0} href="#" className="hidden border border-[#7481ff] px-4 py-2 text-[#fd0223] hover:bg-gray-200 duration-300 sm:block">INVENTORY</a>
+                <a role="button" tabIndex={0} href="#" className="hidden bg-[#fd0223] px-5 py-2 text-white   duration-300 md:block">GET APPROVED NOW</a>
               </div>
               <div className="fixed right-7 h-6 w-8">
                 <button type="button" className="absolute inset-0 hover:text-red-600 group m-0 h-full w-full cursor-pointer border-none bg-transparent p-0">
@@ -32,7 +32,7 @@ const Test = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#7481FF] mt-20">
+      <div className="bg-[#fd0223] mt-20">
         <div className="bg-[#007aff]" style={{background: 'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")'}}>
           <div className="p-5 mx-auto flex items-start">
             <h1 className="py-10 sm:pl-20 font-extrabold text-white text-5xl" style={{fontFamily: '"Gilroy", sans-serif'}}>
@@ -44,10 +44,10 @@ const Test = () => {
       <div className="flex flex-col mt-6 my-5 sm:mx-5 xl:mx-28 gap-4 lg:flex-row">
         <div className="lg:w-[33%]">
           <div className="mx-2">
-            <h1 className="text-2xl font-medium text-indigo-900">Detailed Search</h1>
+            <h1 className="text-2xl font-medium text-[#e42d46]">Detailed Search</h1>
           </div>
           <div className="mx-1 mt-2">
-            <a id="clearance" className="btn mb-2 mt-0 block flex w-full items-center justify-center rounded-md bg-[#7481ff] py-2 text-sm font-bold text-white transition duration-200 hover:bg-blue-600" href="/clearance">
+            <a id="clearance" className="btn mb-2 mt-0 block flex w-full items-center justify-center rounded-md bg-[#fd0223] py-2 text-sm font-bold text-white transition duration-200 hover:bg-[#fd0223]" href="/clearance">
               View Clearance
               <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="ml-2 h-5 w-5">
                 <path fill="currentColor" d="M345 39.1L472.8 168.4c52.4 53 52.4 138.2 0 191.2L360.8 472.9c-9.3 9.4-24.5 9.5-33.9 .2s-9.5-24.5-.2-33.9L438.6 325.9c33.9-34.3 33.9-89.4 0-123.7L310.9 72.9c-9.3-9.4-9.2-24.6 .2-33.9s24.6-9.2 33.9 .2zM0 229.5L0 80C0 53.5 21.5 32 48 32l149.5 0c17 0 33.3 6.7 45.3 18.7l168 168c25 25 25 65.5 0 90.5L277.3 442.7c-25 25-65.5 25-90.5 0l-168-168C6.7 262.7 0 246.5 0 229.5zM144 144a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
@@ -126,7 +126,7 @@ const Test = () => {
             <div className="flex sm:w-[100%]">
               <h1 className="lg:flex hidden gap-1 font-light items-center justify-center">Sort <span>By:</span></h1>
               <div className="mx-2 w-[100%] sm:w-[100%] sm:mt-0 mt-2 flex gap-2">
-                <select className="form-select w-full p-1 h-9 text-sm font-light rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 hover:border-blue-500">
+                <select className="form-select w-full p-1 h-9 text-sm font-light rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 hover: border-[#fd0223]">
                   <option>Newest Inventory</option>
                   <option>Price: Low to High</option>
                   <option>Price: High to Low</option>
@@ -221,20 +221,20 @@ const Test = () => {
                 <div className="mt-4 p-4">
                   <h3 className="text-lg font-semibold">{car.name}</h3>
                   <p className="text-gray-600">{car.model}</p>
-                  <p className="text-xl font-bold text-indigo-600 mt-2">${car.price}</p>
+                  <p className="text-xl font-bold text-[#fd0223] mt-2">${car.price}</p>
                   <div className="flex justify-between mt-4 text-sm text-gray-500">
                     <span>{car.km} km</span>
                     <span>{car.transmission}</span>
                   </div>
                   <div className="flex gap-2 mt-4">
-                    <button className="w-1/2 py-2 text-indigo-600 border border-indigo-600 rounded hover:bg-indigo-50">View Details</button>
-                    <button className="w-1/2 py-2 text-white bg-indigo-600 rounded hover:bg-indigo-700">Apply Now</button>
+                    <button className="w-1/2 py-2 text-[#fd0223] border border-[#fd0223] rounded hover:bg-indigo-50">View Details</button>
+                    <button className="w-1/2 py-2 text-white bg-[#fd0223] rounded  ">Apply Now</button>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-          <div className="bg-[#7481ff] shadow-neutral-600 shadow-2xl bg-cover mt-5 mb-5 bg-top text-center" style={{backgroundImage: 'url("https://vehicleapprovalcentre.com/_next/static/media/front-lead-bg.2c0e8fe8.svg")', backgroundSize: '110%'}}>
+          <div className="bg-[#fd0223] shadow-neutral-600 shadow-2xl bg-cover mt-5 mb-5 bg-top text-center" style={{backgroundImage: 'url("https://vehicleapprovalcentre.com/_next/static/media/front-lead-bg.2c0e8fe8.svg")', backgroundSize: '110%'}}>
         <div className="pt-3  w-full">
           <div className>
             <div className>
@@ -242,7 +242,7 @@ const Test = () => {
                 <section className="sm:flex-row  flex-col flex items-center mx-4 justify-between ">
                   <img src="https://cfctradein.azureedge.net/images/carfax-canada-logo-black.svg" alt="Carfax Canada Logo" className />
                   <h2 className="text-xl mb-2 font-bold">Find out what your trade-in is worth.</h2>
-                  <button className="bg-[#4053f7] rounded hover:bg-blue-800 duration-300 px-6 py-2 text-white">Get Started</button>
+                  <button className="bg-[#fd0223] rounded hover:bg-[#fd0223] duration-300 px-6 py-2 text-white">Get Started</button>
                 </section>
               </div>
             </div>
@@ -250,7 +250,7 @@ const Test = () => {
         </div>
         <h3 className="text-white font-bold text-center pt-3 px-2">Don't see what you're looking for?</h3>
         <h5 className="text-white font-light px-2">We have access to thousands of vehicles. Just let us know what your dream car is!</h5>
-        <a id="contact" className=" mt-2 mb-3 rounded font-bold text-lg  text-[#7481ff] bg-white hover:bg-gray-200 py-4 px-2 inline-flex items-center" href="/contact">
+        <a id="contact" className=" mt-2 mb-3 rounded font-bold text-lg  text-[#fd0223] bg-white hover:bg-gray-200 py-4 px-2 inline-flex items-center" href="/contact">
           Contact Us
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" className="w-5 mx-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
@@ -272,14 +272,14 @@ const Test = () => {
                 <div className="mt-4 p-4">
                   <h3 className="text-lg font-semibold">{car.name}</h3>
                   <p className="text-gray-600">{car.model}</p>
-                  <p className="text-xl font-bold text-indigo-600 mt-2">${car.price}</p>
+                  <p className="text-xl font-bold text-[#fd0223] mt-2">${car.price}</p>
                   <div className="flex justify-between mt-4 text-sm text-gray-500">
                     <span>{car.km} km</span>
                     <span>{car.transmission}</span>
                   </div>
                   <div className="flex gap-2 mt-4">
-                    <button className="w-1/2 py-2 text-indigo-600 border border-indigo-600 rounded hover:bg-indigo-50">View Details</button>
-                    <button className="w-1/2 py-2 text-white bg-indigo-600 rounded hover:bg-indigo-700">Apply Now</button>
+                    <button className="w-1/2 py-2 text-[#fd0223] border border-[#fd0223] rounded hover:bg-indigo-50">View Details</button>
+                    <button className="w-1/2 py-2 text-white bg-[#fd0223] rounded  ">Apply Now</button>
                   </div>
                 </div>
               </div>

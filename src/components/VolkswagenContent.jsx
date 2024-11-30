@@ -4,7 +4,7 @@ const VolkswagenContent = () => {
   return (
     <div>
       
-        <div className="bg-[#7481FF] ">
+        <div className="bg-[#fd0223] ">
           <div className="bg-[#007aff]" style={{background: 'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")'}}>
             <div className=" p-5 mx-auto flex items-start">
               <h1 className="py-10  sm:pl-20 leading-tight  font-extrabold text-white text-pretty text-2xl sm:text-5xl" style={{fontFamily: '"Gilroy", sans-serif'}}>
@@ -25,8 +25,8 @@ const VolkswagenContent = () => {
             </div>
             <div className="md:w-1/2 w-full px-1">
               <h5 className="font-semibold text-xl mb-2 text-gray-800">Price</h5>
-              <h2 className="text-[#7481FF] text-start text-4xl font-bold">$37,995.00</h2>
-              <button type="button" className="mt-6 w-full    bg-[#8994FF] p-2.5 font-bold text-white  hover:bg-blue-700">Apply for This Vehicle</button>
+              <h2 className="text-[#fd0223] text-start text-4xl font-bold">$37,995.00</h2>
+              <button type="button" className="mt-6 w-full     bg-[#fd0223] p-2.5 font-bold text-white  hover:bg-[#fd0223]">Apply for This Vehicle</button>
               <div className="w-full mt-4 p-2 pt-0">
                 <hr className="border-gray-300" />
               </div>
@@ -53,7 +53,7 @@ const VolkswagenContent = () => {
               </div>
               <div className="mt-2 mx-2 flex flex-col ">
                 <img src="https://vehicleapprovalcentre.com/_next/static/media/carfax-logo.8bce769a.png" className="w-44 mb-5" />
-                <button type="button" className="rounded bg-gray-100  text-base py-3 font-bold text-gray-800 w-56 shadow-2xl shadow-black border border-blue-500 hover:bg-gray-200">Request History Report</button>
+                <button type="button" className="rounded bg-gray-100  text-base py-3 font-bold text-gray-800 w-56 shadow-2xl shadow-black border  border-[#fd0223] hover:bg-gray-200">Request History Report</button>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ const VolkswagenContent = () => {
             <div className="lg:w-1/2 w-full">
               <div className="mx-3 my-3">
                 <div className="mb-5 px-0 lg:px-6 xl:px-4  py-[1.5rem] bg-[#F8F9FA] border shadow-2xl shadow-neutral-40 rounded-lg ">
-                  <h4 className="text-[#7481FF] text-2xl mx-4 p-0 font-semibold">Description</h4>
+                  <h4 className="text-[#fd0223] text-2xl mx-4 p-0 font-semibold">Description</h4>
                   <div className="px-4 ">
                     <div className="-mt-6 ">
                       <p className="text-gray-800  whitespace-pre-line">
@@ -99,7 +99,7 @@ const VolkswagenContent = () => {
                 {/* Container */}
                 <div className="px-0 lg:px-6 xl:px-4  py-[1.5rem] bg-[#F8F9FA] rounded-lg border shadow-2xl shadow-neutral-300 mb-4">
                   {/* Title */}
-                  <h4 className="text-[#7481FF] text-2xl mx-4 p-0 font-semibold">More Details</h4>
+                  <h4 className="text-[#fd0223] text-2xl mx-4 p-0 font-semibold">More Details</h4>
                   {/* Table Wrapper */}
                   <div className="m-4">
                     {/* Table */}

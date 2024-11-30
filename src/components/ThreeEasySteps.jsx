@@ -1,4 +1,5 @@
 import React from 'react';
+import Mob from '../assets/mobiles.jpg'
 
 const ThreeEasySteps = () => {
   return (
@@ -51,13 +52,13 @@ const ThreeEasySteps = () => {
                 </div>
               </div>
               <div className="flex lg:hidden justify-center items-center mx-auto ">
-                <a id="apply-mobile" className="w-full  mx-3 mb-2 mt-3 duration-300 rounded px-10 py-5 text-center bg-[#7481ff] text-white hover:bg-indigo-600" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} href="/apply-now">GET APPROVED NOW!</a>
+                <a id="apply-mobile" className="w-full  mx-3 mb-2 mt-3 duration-300 rounded px-10 py-5 text-center bg-[#fd0223] text-white hover:bg-[#fd0223]" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} href="/apply-now">GET APPROVED NOW!</a>
               </div>
               <div className="lg:w-1/2 md:w-full sm:w-full w-full pb-4">
-                <img src="https://vehicleapprovalcentre.com/_next/static/media/front-steps-bg.ef23beec.png" alt="Steps on your phone" className=" mx-auto lg:-mt-24" />
+                <img src={Mob} alt="Steps on your phone" className="lg:w-[80%] mx-auto " />
               </div>
               <div className="hidden lg:flex  justify-center items-center mx-auto ">
-                <a id="apply-desktop" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} className=" rounded-xl px-24 text-xl   py-6 bg-[#7481ff] text-white hover:bg-indigo-600 duration-300" href="/#">GET APPROVED NOW!</a>
+                <a id="apply-desktop" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} className=" rounded-xl px-24 text-xl   py-6 bg-[#fd0223] text-white hover:bg-[#fd0223] duration-300" href="/#">GET APPROVED NOW!</a>
               </div>
             </div>
           </div>

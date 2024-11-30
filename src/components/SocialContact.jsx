@@ -4,7 +4,7 @@ const SocialContact = () => {
   return (
     <>
     <div className>
-    <h1 className="text-4xl sm:ml-32 ml-6 font-bold text-indigo-900 mb-4 ">Check out our socials</h1>
+    <h1 className="text-4xl sm:ml-32 ml-6 font-bold text-[#e42d46] mb-4 ">Check out our socials</h1>
     <div className="flex w-full flex-col items-center  p-4">
       <div className="mb-0">
         <div className="flex items-center justify-between gap-2">
@@ -20,7 +20,7 @@ const SocialContact = () => {
                   <div className="flex items-center gap-1">
                     <a href="#" className="text-xs sm:text-xl font-semibold text-gray-900 hover:underline" title="@vehicleapprovalcentre" target="_blank" rel="noopener noreferrer nofollow"> Vehicle Approval Centre </a>
                     <span className="h-4 w-4" title="Verified">
-                      <svg width={16} height={16} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="mt-[0.1em] text-blue-500">
+                      <svg width={16} height={16} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="mt-[0.1em] text-[#fd0223]">
                         <path d="M5.79131 0.202079C5.90764 0.0894369 6.09236 0.0894369 6.20869 0.202079L7.15665 1.12C7.23117 1.19217 7.33769 1.22071 7.43831 1.19547L8.71823 0.874508C8.87529 0.835121 9.03527 0.927484 9.07969 1.0832L9.44168 2.35212C9.47014 2.45188 9.54812 2.52986 9.64788 2.55831L10.9168 2.92031C11.0725 2.96473 11.1649 3.12471 11.1255 3.28177L10.8045 4.56169C10.7793 4.66231 10.8078 4.76883 10.88 4.84335L11.7979 5.79131C11.9106 5.90764 11.9106 6.09236 11.7979 6.20869L10.88 7.15665C10.8078 7.23117 10.7793 7.33769 10.8045 7.43831L11.1255 8.71823C11.1649 8.87529 11.0725 9.03527 10.9168 9.07969L9.64788 9.44168C9.54812 9.47014 9.47014 9.54812 9.44168 9.64788L9.07969 10.9168C9.03527 11.0725 8.87529 11.1649 8.71823 11.1255L7.43831 10.8045C7.33769 10.7793 7.23117 10.8078 7.15665 10.88L6.20869 11.7979C6.09236 11.9106 5.90764 11.9106 5.79131 11.7979L4.84335 10.88C4.76883 10.8078 4.66231 10.7793 4.56169 10.8045L3.28177 11.1255C3.12471 11.1649 2.96473 11.0725 2.92031 10.9168L2.55831 9.64788C2.52986 9.54812 2.45188 9.47014 2.35212 9.44168L1.0832 9.07969C0.927484 9.03527 0.835121 8.87529 0.874508 8.71823L1.19547 7.43831C1.22071 7.33769 1.19217 7.23117 1.12 7.15665L0.202079 6.20869C0.0894369 6.09236 0.0894369 5.90764 0.202079 5.79131L1.12 4.84335C1.19217 4.76883 1.22071 4.66231 1.19547 4.56169L0.874508 3.28177C0.835121 3.12471 0.927484 2.96473 1.0832 2.92031L2.35212 2.55831C2.45188 2.52986 2.52986 2.45188 2.55831 2.35212L2.92031 1.0832C2.96473 0.927484 3.12471 0.835121 3.28177 0.874508L4.56169 1.19547C4.66231 1.22071 4.76883 1.19217 4.84335 1.12L5.79131 0.202079Z" fill="currentColor" />
                       </svg>
                     </span>
@@ -46,7 +46,7 @@ const SocialContact = () => {
                   </div>
                 </div>
                 <div className="mt-2 sm:mt-0">
-                  <a href="#" target="_blank" rel="noopener noreferrer nofollow" className="relative flex gap-1 items-center justify-center rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"><span className>
+                  <a href="#" target="_blank" rel="noopener noreferrer nofollow" className="relative flex gap-1 items-center justify-center rounded bg-[#fd0223] px-4 py-2 text-white hover:bg-[#fd0223]"><span className>
                       <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.5em" viewBox="0 0 24 24"><g fill="none" stroke="white" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8" /><path d="M3 16V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Z" /><path strokeLinecap="round" strokeLinejoin="round" d="m17.5 6.51l.01-.011" /></g></svg>
                     </span> Follow </a>
                 </div>
@@ -278,10 +278,10 @@ const SocialContact = () => {
     </div>
   </div>
   <div className="flex sm:w-96 justify-center md:text-2xl  mt-12 items-center mx-auto ">
-  <a id="apply-mobile" className="w-full  mx-3 mb-2 mt-3 duration-300 rounded-xl px-10 py-5 text-center bg-[#7481ff] text-white  shadow-md hover:bg-indigo-600" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} href="/apply-now">GET APPROVED NOW!</a>
+  <a id="apply-mobile" className="w-full  mx-3 mb-2 mt-3 duration-300 rounded-xl px-10 py-5 text-center bg-[#fd0223] text-white  shadow-md hover:bg-[#fd0223]" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} href="/apply-now">GET APPROVED NOW!</a>
 </div>
 <div className=" md:flex hidden  lg:flex xl:flex justify-center mb-4">
-  <h3 className="text-center mb-4 md:flex hidden  mt-7 gap-2 text-indigo-400">
+  <h3 className="text-center mb-4 md:flex hidden  mt-7 gap-2 text-[#fd0223]">
     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="wind" className="svg-inline--fa fa-wind fa-flip-horizontal size-10 rotate-180" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M288 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128c-17.7 0-32 14.3-32 32s14.3 32 32 32l320 0c53 0 96-43 96-96s-43-96-96-96L320 0c-17.7 0-32 14.3-32 32zm64 352c0 17.7 14.3 32 32 32l32 0c53 0 96-43 96-96s-43-96-96-96L32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32 14.3-32 32zM128 512l32 0c53 0 96-43 96-96s-43-96-96-96L32 320c-17.7 0-32 14.3-32 32s14.3 32 32 32l128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32z" /></svg>
     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="car-side" className="w-12  ms-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M171.3 96L224 96l0 96-112.7 0 30.4-75.9C146.5 104 158.2 96 171.3 96zM272 192l0-96 81.2 0c9.7 0 18.9 4.4 25 12l67.2 84L272 192zm256.2 1L428.2 68c-18.2-22.8-45.8-36-75-36L171.3 32c-39.3 0-74.6 23.9-89.1 60.3L40.6 196.4C16.8 205.8 0 228.9 0 256L0 368c0 17.7 14.3 32 32 32l33.3 0c7.6 45.4 47.1 80 94.7 80s87.1-34.6 94.7-80l130.7 0c7.6 45.4 47.1 80 94.7 80s87.1-34.6 94.7-80l33.3 0c17.7 0 32-14.3 32-32l0-48c0-65.2-48.8-119-111.8-127zM434.7 368a48 48 0 1 1 90.5 32 48 48 0 1 1 -90.5-32zM160 336a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" /></svg>
   </h3>
