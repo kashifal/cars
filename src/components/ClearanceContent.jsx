@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ClearanceContent = () => {
   return (
@@ -25,7 +26,7 @@ const ClearanceContent = () => {
             km: "38,000",
             transmission: "Automatic"
           })).map((car, index) => (
-            <div key={index} className="border rounded-lg shadow-sm">
+            <Link to='/volkswagen' key={index} className="border cursor-pointer rounded-lg shadow-sm">
               <img src={car.img} alt={car.name} className="w-full h-48 object-cover rounded-t-lg" />
               <div className="mt-4 p-4">
                 <h3 className="text-lg font-semibold">{car.name}</h3>
@@ -40,7 +41,7 @@ const ClearanceContent = () => {
                   <button className="w-1/2 py-2 text-white bg-[#fd0223] rounded  ">Apply Now</button>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
           
         </div>

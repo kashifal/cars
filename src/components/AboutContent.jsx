@@ -19,7 +19,7 @@ const AboutContent = () => {
           <div className="bg-[#FFFFFF] z-[2] max-w-7xl mx-auto  border border-gray-300 shadow-sm">
             <div className="relative bg-gray-50  max-w-xl mt-9 mx-2 z-[4]">
               <div className=" py-7  relative z-[4] px-11">
-                <h2 className="sm:text-4xl  text-2xl text-[#41456B] font-bold">Vehicle Approval Centre</h2>
+                <h2 className="sm:text-4xl  text-2xl text-[#41456B] font-bold">Auto Mart</h2>
               </div>
               <hr className="w-full  bg-slate-400" />
               <div className="card-body flex flex-col relative z-[4] space-y-4 p-11">
@@ -60,15 +60,15 @@ const AboutContent = () => {
             {/* Left Column */}
             <div className="w-full px-4 md:w-8/12">
               <h3 className="text-3xl font-bold text-[#fd0223]">Our Journey</h3>
-              <p className="mt-2 text-gray-700">Vehicle Approval Centre's story began with a passion for cars and a drive to make a difference in the automotive industry. Founded by a team of dedicated individuals with deep roots in Atlantic Canada, our journey started with a simple yet powerful vision: to revolutionize the way people buy used cars.</p>
+              <p className="mt-2 text-gray-700">Auto Mart's story began with a passion for cars and a drive to make a difference in the automotive industry. Founded by a team of dedicated individuals with deep roots in Atlantic Canada, our journey started with a simple yet powerful vision: to revolutionize the way people buy used cars.</p>
               <h3 className="mt-6 text-3xl  font-bold text-[#fd0223]">The Vision</h3>
               <p className="mt-2 text-gray-700">Frustrated by the lack of transparency and customer-centric approach in traditional car dealerships, we set out to create a different kind of car buying experience—one that prioritized honesty, integrity, and exceptional service. We envisioned a dealership where customers could browse a diverse selection of high-quality used vehicles online, with detailed information and transparent pricing, empowering them to make informed decisions from the comfort of their own homes.</p>
               <h3 className="mt-6 text-3xl  font-bold text-[#fd0223]">Turning Vision into Reality</h3>
-              <p className="mt-2 text-gray-700">With this vision in mind, Vehicle Approval Centre was born. We set ourselves apart by offering a 360-degree view of our inventory online, giving customers an immersive and transparent shopping experience like never before. Our commitment to transparency extended beyond our online platform; it became the cornerstone of everything we do, guiding our interactions with customers and shaping the way we conduct business.</p>
+              <p className="mt-2 text-gray-700">With this vision in mind, Auto Mart was born. We set ourselves apart by offering a 360-degree view of our inventory online, giving customers an immersive and transparent shopping experience like never before. Our commitment to transparency extended beyond our online platform; it became the cornerstone of everything we do, guiding our interactions with customers and shaping the way we conduct business.</p>
               <h3 className="mt-6 text-3xl  font-bold text-[#fd0223]">Building Trust, One Customer at a Time</h3>
-              <p className="mt-2 text-gray-700">As word spread about our innovative approach and dedication to customer satisfaction, Vehicle Approval Centre quickly became a trusted name in Atlantic Canada. Our customers appreciated our honesty, integrity, and personalized service, and our reputation for excellence continued to grow. From first-time buyers to seasoned car enthusiasts, people from all walks of life began turning to Vehicle Approval Centre for their automotive needs.</p>
+              <p className="mt-2 text-gray-700">As word spread about our innovative approach and dedication to customer satisfaction, Auto Mart quickly became a trusted name in Atlantic Canada. Our customers appreciated our honesty, integrity, and personalized service, and our reputation for excellence continued to grow. From first-time buyers to seasoned car enthusiasts, people from all walks of life began turning to Auto Mart for their automotive needs.</p>
               <h3 className="mt-6 text-3xl  font-bold text-[#fd0223]">Continuing the Journey</h3>
-              <p className="mt-2 text-gray-700">Today, Vehicle Approval Centre stands as a testament to the power of passion, innovation, and dedication. We are proud to have helped thousands of customers find their perfect vehicle, and we remain committed to our founding principles of transparency, integrity, and exceptional service. As we continue on our journey, we look forward to serving the community of Atlantic Canada for many years to come, helping more people find the car of their dreams and making car buying a hassle-free and enjoyable experience for everyone.</p>
+              <p className="mt-2 text-gray-700">Today, Auto Mart stands as a testament to the power of passion, innovation, and dedication. We are proud to have helped thousands of customers find their perfect vehicle, and we remain committed to our founding principles of transparency, integrity, and exceptional service. As we continue on our journey, we look forward to serving the community of Atlantic Canada for many years to come, helping more people find the car of their dreams and making car buying a hassle-free and enjoyable experience for everyone.</p>
             </div>
             {/* Right Column */}
             <div className="flex w-[60%] mx-auto flex-col items-center  md:px-4 md:w-[27%]">
@@ -81,7 +81,7 @@ const AboutContent = () => {
             </div>
           </div>
         </div>
-        <div className="w-full"><iframe title="Vehicle Approval Centre" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.0409217657657!2d-63.667371223996845!3d44.63708058824433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a21d2ef335385%3A0x4ef2ce3c2fee78df!2s110%20Chain%20Lake%20Dr%20%233b%2C%20Halifax%2C%20NS%20B3S%201A9!5e0!3m2!1sen!2sca!4v1698681810329!5m2!1sen!2sca" width={1500} height={400} style={{border: '0px'}} loading="lazy" className="w-full" />
+        <div className="w-full"><iframe title="Auto Mart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.0409217657657!2d-63.667371223996845!3d44.63708058824433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a21d2ef335385%3A0x4ef2ce3c2fee78df!2s110%20Chain%20Lake%20Dr%20%233b%2C%20Halifax%2C%20NS%20B3S%201A9!5e0!3m2!1sen!2sca!4v1698681810329!5m2!1sen!2sca" width={1500} height={400} style={{border: '0px'}} loading="lazy" className="w-full" />
         </div>
       </div>
     </div>

@@ -1,69 +1,87 @@
-import React from 'react';
+import React from "react";
+import { useLocation } from "react-router-dom";
 
 const VolkswagenContent = () => {
+  const location = useLocation();
+  const car = location.state?.car;
+
+  if (!car) {
+    return <div>Car not found</div>;
+  }
+
   return (
     <div>
-      
-        <div className="bg-[#fd0223] ">
-          <div className="bg-[#007aff]" style={{background: 'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")'}}>
-            <div className=" p-5 mx-auto flex items-start">
-              <h1 className="py-10  sm:pl-20 leading-tight  font-extrabold text-white text-pretty text-2xl sm:text-5xl" style={{fontFamily: '"Gilroy", sans-serif'}}>
-                2022 Volkswagen Atlas V6 SEL 4MOTION
-              </h1>
+      <div className="bg-[#fd0223] mt-20">
+        <div
+          className="bg-[#007aff]"
+          style={{
+            background:
+              'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")',
+          }}
+        >
+          <div className="p-5 mx-auto flex items-start">
+            <h1
+              className="py-10 sm:pl-20 font-extrabold text-white text-5xl"
+              style={{ fontFamily: '"Gilroy", sans-serif' }}
+            >
+              {car.model}
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div className="lg:mx-20 mt-4 xl:mt-32 mb-7 md:mb-32 mx-2">
+        <div className="grid lg:grid-cols-12 justify-center items-center gap-8">
+          {/* Left Column - Image */}
+          <div className="rounded-lg h-[500px] lg:col-span-8 w-full overflow-hidden shadow-lg">
+            <img
+              src={car.image}
+              alt={car.model}
+              className="w-full object-cover object-center relative"
+            />
+          </div>
+
+          {/* Right Column - Car Details */}
+          <div className="bg-white lg:col-span-4 h-full p-6 rounded-lg shadow-lg">
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">{car.model}</h2>
+            <div className="space-y-4">
+              <div className="flex justify-between items-center border-b pb-4">
+                <span className="text-2xl font-bold text-[#fd0223]">
+                  ${car.price.toLocaleString()}
+                </span>
+              </div>
+
+              <div className="space-y-2">
+                <div className="flex justify-between">
+                  <span className="text-gray-600">Year:</span>
+                  <span className="font-semibold">{car.year}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-gray-600">Mileage:</span>
+                  <span className="font-semibold">{car.mileage} km</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-gray-600">Transmission:</span>
+                  <span className="font-semibold">{car.transmission}</span>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="mt-28 mx-2 flex flex-col ">
+              <img src="https://vehicleapprovalcentre.com/_next/static/media/carfax-logo.8bce769a.png" class="w-44 mb-5" />
+              <button type="button" class="rounded bg-gray-100  text-base py-3 font-bold text-gray-800 w-56 shadow-2xl shadow-black border border-[#fd0223] hover:bg-gray-200">Request History Report</button>
             </div>
           </div>
         </div>
-        <div className="lg:mx-20 mt-4 xl:mt-32 mb-7 md:mb-32 mx-2">
-          <div className="md:flex-row flex  lg:h-[500px] flex-col justify-center items-center gap-8">
-            <div className=" w-full h-fit rounded   bg-slate-100 p-2">
-              <img src="https://vologous.sirv.com/1V2BR2CA6NC562889/2024112110354326333.jpg?scale.option=fill&w=900&h=0" className="w-full relative" alt="" />
-              <span className="flex justify-between">
-                <svg xmlns="http://www.w3.org/2000/svg" className width="1.5em" height="1.5em" viewBox="0 0 1024 1024"><path fill="gray" d="M685.248 104.704a64 64 0 0 1 0 90.496L368.448 512l316.8 316.8a64 64 0 0 1-90.496 90.496L232.704 557.248a64 64 0 0 1 0-90.496l362.048-362.048a64 64 0 0 1 90.496 0" /></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="gray" d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10s10-4.47 10-10S17.53 2 12 2" /></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 1024 1024"><path fill="gray" d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8l-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0" /></svg>
-              </span>
-            </div>
-            <div className="md:w-1/2 w-full px-1">
-              <h5 className="font-semibold text-xl mb-2 text-gray-800">Price</h5>
-              <h2 className="text-[#fd0223] text-start text-4xl font-bold">$37,995.00</h2>
-              <button type="button" className="mt-6 w-full     bg-[#fd0223] p-2.5 font-bold text-white  hover:bg-[#fd0223]">Apply for This Vehicle</button>
-              <div className="w-full mt-4 p-2 pt-0">
-                <hr className="border-gray-300" />
-              </div>
-              <div className="grid mx-2 grid-cols-2 gap-4 pt-5">
-                <div>
-                  <h6 className="font-semibold text-gray-800">Body</h6>
-                  <h4 className="sm:text-2xl text-xl mt-1 font-bold text-gray-900">SUV</h4>
-                </div>
-                <div>
-                  <h6 className="font-semibold text-gray-800">Year</h6>
-                  <h4 className="sm:text-2xl text-xl mt-1 font-bold text-gray-900">2022</h4>
-                </div>
-                <div>
-                  <h6 className="font-semibold text-gray-800">Transmission</h6>
-                  <h4 className="sm:text-2xl text-xl mt-1 font-bold text-gray-900">Automatic</h4>
-                </div>
-                <div>
-                  <h6 className="font-semibold text-gray-800">Kilometers</h6>
-                  <h4 className="sm:text-2xl text-xl mt-1 font-bold text-gray-900">90,000 km</h4>
-                </div>
-              </div>
-              <div className="mt-0 p-2 pt-6">
-                <hr className="border-gray-300" />
-              </div>
-              <div className="mt-2 mx-2 flex flex-col ">
-                <img src="https://vehicleapprovalcentre.com/_next/static/media/carfax-logo.8bce769a.png" className="w-44 mb-5" />
-                <button type="button" className="rounded bg-gray-100  text-base py-3 font-bold text-gray-800 w-56 shadow-2xl shadow-black border  border-[#fd0223] hover:bg-gray-200">Request History Report</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="lg:mx-24 mb-14 sm:mt-0 mt-5 ">
+
+        {/* Additional Information Section */}
+        <div className="sm:mt-20 mb-14 mt-5 ">
           <div className="lg:flex-row flex flex-col-reverse gap-2 ">
             <div className="lg:w-1/2 w-full">
               <div className="mx-3 my-3">
                 <div className="mb-5 px-0 lg:px-6 xl:px-4  py-[1.5rem] bg-[#F8F9FA] border shadow-2xl shadow-neutral-40 rounded-lg ">
-                  <h4 className="text-[#fd0223] text-2xl mx-4 p-0 font-semibold">Description</h4>
+                  <h4 className="text-[#7481FF] text-2xl mx-4 p-0 font-semibold">Description</h4>
                   <div className="px-4 ">
                     <div className="-mt-6 ">
                       <p className="text-gray-800  whitespace-pre-line">
@@ -99,7 +117,7 @@ const VolkswagenContent = () => {
                 {/* Container */}
                 <div className="px-0 lg:px-6 xl:px-4  py-[1.5rem] bg-[#F8F9FA] rounded-lg border shadow-2xl shadow-neutral-300 mb-4">
                   {/* Title */}
-                  <h4 className="text-[#fd0223] text-2xl mx-4 p-0 font-semibold">More Details</h4>
+                  <h4 className="text-[#7481FF] text-2xl mx-4 p-0 font-semibold">More Details</h4>
                   {/* Table Wrapper */}
                   <div className="m-4">
                     {/* Table */}
@@ -154,6 +172,7 @@ const VolkswagenContent = () => {
           </div>
         </div>
       </div>
+    </div>
   );
 };
 

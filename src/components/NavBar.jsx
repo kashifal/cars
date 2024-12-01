@@ -1,18 +1,19 @@
 import React from 'react';
 import logo from '../assets/logo.jpeg'
+import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
    <>
      <div className=" lg:px-28 fixed z-[9999999999] top-0 w-full bg-white">
           <div className>
             <div className="mx-6 lg:mx-0 flex items-center   justify-between py-3">
-              <a href="/" className="py-3">
+              <Link to="/" className="py-3">
                 <img src={logo} className="size-[50px]" alt="" />
-              </a>
+              </Link>
               <div className="flex gap-[100px] mr-11 px-9 items-center">
                 <div className="flex gap-3">
-                  <a role="button" tabIndex={0} href="#" className=" hidden  border border-[#fd0223] px-4 py-2 text-[#fd0223] hover:bg-gray-200 duration-300 sm:block"> INVENTORY </a>
-                  <a role="button" tabIndex={0} href="#" className="hidden  bg-[#fd0223] px-5 py-2 text-white   duration-300 md:block"> GET APPROVED NOW </a>
+                  <Link to='/inventory' role="button" tabIndex={0} className=" hidden  border border-[#fd0223] px-4 py-2 text-[#fd0223] hover:bg-gray-200 duration-300 sm:block"> INVENTORY </Link>
+                  <Link to='/approved' role="button" tabIndex={0} className="hidden  bg-[#fd0223] px-5 py-2 text-white   duration-300 md:block"> GET APPROVED NOW </Link>
                 </div>
                 <div className="fixed right-7   h-6 w-8">
                   <button type="button" id className="absolute inset-0 hover:text-red-600 group m-0 h-full w-full cursor-pointer border-none bg-transparent p-0">

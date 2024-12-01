@@ -25,7 +25,7 @@ const TradeContent = () => {
               {/* Card Body */}
               <div className="p-4 pb-7 py-5">
                 <p className="text-[#41456B]">
-                  Looking to sell or trade your car? At Vehicle Approval Centre in Halifax, we make it easy with competitive appraisals, quick transactions, and a transparent process.
+                  Looking to sell or trade your car? At Auto Mart in Halifax, we make it easy with competitive appraisals, quick transactions, and a transparent process.
                 </p>
                 <p className="text-[#41456B] mt-5">
                   Partnered with <b>CARFAX Canada</b>, we ensure your vehicle's history is clearly assessed so you can get the best possible value.
@@ -96,7 +96,7 @@ const TradeContent = () => {
             </button>
             <div className="accordion-collapse hidden bg-white transition-all duration-200">
               <div className="accordion-body p-4">
-                <p className="text-sm text-gray-600">Simply bring your vehicle to Vehicle Approval Centre in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
+                <p className="text-sm text-gray-600">Simply bring your vehicle to Auto Mart in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@ const TradeContent = () => {
             </button>
             <div className="accordion-collapse hidden bg-white transition-all duration-200">
               <div className="accordion-body p-4">
-                <p className="text-sm text-gray-600">Simply bring your vehicle to Vehicle Approval Centre in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
+                <p className="text-sm text-gray-600">Simply bring your vehicle to Auto Mart in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ const TradeContent = () => {
             </button>
             <div className="accordion-collapse hidden bg-white transition-all duration-200">
               <div className="accordion-body p-4">
-                <p className="text-sm text-gray-600">Simply bring your vehicle to Vehicle Approval Centre in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
+                <p className="text-sm text-gray-600">Simply bring your vehicle to Auto Mart in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@ const TradeContent = () => {
             </button>
             <div className="accordion-collapse hidden bg-white transition-all duration-200">
               <div className="accordion-body p-4">
-                <p className="text-sm text-gray-600">Simply bring your vehicle to Vehicle Approval Centre in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
+                <p className="text-sm text-gray-600">Simply bring your vehicle to Auto Mart in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@ const TradeContent = () => {
             </button>
             <div className="accordion-collapse hidden bg-white transition-all duration-200">
               <div className="accordion-body p-4">
-                <p className="text-sm text-gray-600">Simply bring your vehicle to Vehicle Approval Centre in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
+                <p className="text-sm text-gray-600">Simply bring your vehicle to Auto Mart in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@ const TradeContent = () => {
             </button>
             <div className="accordion-collapse hidden bg-white transition-all duration-200">
               <div className="accordion-body p-4">
-                <p className="text-sm text-gray-600">Simply bring your vehicle to Vehicle Approval Centre in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
+                <p className="text-sm text-gray-600">Simply bring your vehicle to Auto Mart in Halifax, or start the process online. We will assess its condition, history via CARFAX Canada, and market value to provide you with the best offer.</p>
               </div>
             </div>
           </div>
