@@ -1,109 +1,125 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import toyotaCamry from '../assets/Toyota Camry.jpg';
+import hondaCivic from '../assets/Honda Civic.jpg';
+import teslaModel3 from '../assets/Tesla Model 3.jpg';
+import bmw3Series from '../assets/Nissan Altima.png';
+import hyundaiElantra from '../assets/Hyundai Elantra.jpg';
+import mazda3 from '../assets/Mazda 3.jpg';
+import volkswagenGolf from '../assets/Volkswagen Golf.jpg';
+import audiA4 from '../assets/Audi A4.jpg';
+import mercedesCClass from '../assets/Mercedes C-Class.jpg';
+import lexusES from '../assets/Lexus ES.jpg';
+import kiaK5 from '../assets/Kia K5.jpg';
+import chevroletMalibu from '../assets/Chevrolet Malibu.jpg';
+import nissanAltima from '../assets/Nissan Altima.png';
+import subaruLegacy from '../assets/Subaru Legacy.jpg';
+import volvoS60 from '../assets/Volvo S60.jpg';
+import genesisG70 from '../assets/Genesis G70.jpg';
+import infinitiQ50 from '../assets/Infiniti Q50.jpg';
+import acuraTLX from '../assets/Acura TLX.jpg';
+import chrysler300 from '../assets/Chrysler 300.jpg';
+import bgImg from '../assets/bg.svg'
+import bigBg from '../assets/bigBg.svg'
+import caraLogo from '../assets/caraLogo.svg'
 
 const Inventory = () => {
   const carModels = [
     {
       model: "Toyota Camry",
       price: 25000,
-      image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb",
+      image: toyotaCamry,
     },
     {
       model: "Honda Civic",
       price: 23000,
-      image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24",
-    },
-    {
-      model: "Ford Mustang",
-      price: 35000,
-      image: "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f6",
+      image: hondaCivic,
     },
     {
       model: "Tesla Model 3",
       price: 45000,
-      image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89",
+      image: teslaModel3,
     },
     {
       model: "BMW 3 Series",
       price: 42000,
-      image: "https://images.unsplash.com/photo-1555215695-3004980ad54e",
+      image: bmw3Series,
     },
     {
       model: "Hyundai Elantra",
       price: 22000,
-      image: "https://images.unsplash.com/photo-1629897048514-3dd7414fe72a",
+      image: hyundaiElantra,
     },
     {
       model: "Mazda 3",
       price: 24000,
-      image: "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99",
+      image: mazda3,
     },
     {
       model: "Volkswagen Golf",
       price: 26000,
-      image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d",
+      image: volkswagenGolf,
     },
     {
       model: "Audi A4",
       price: 40000,
-      image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6",
+      image: audiA4,
     },
     {
       model: "Mercedes C-Class",
       price: 43000,
-      image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8",
+      image: mercedesCClass,
     },
     {
       model: "Lexus ES",
       price: 39000,
-      image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888",
+      image: lexusES,
     },
     {
       model: "Kia K5",
       price: 27000,
-      image: "https://images.unsplash.com/photo-1619682817481-e994891cd1f5",
+      image: kiaK5,
     },
     {
       model: "Chevrolet Malibu",
       price: 24500,
-      image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
+      image: chevroletMalibu,
     },
     {
       model: "Nissan Altima",
       price: 26500,
-      image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537",
+      image: nissanAltima,
     },
     {
       model: "Subaru Legacy",
       price: 28000,
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341",
+      image: subaruLegacy,
     },
     {
       model: "Volvo S60",
       price: 38000,
-      image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8",
+      image: volvoS60,
     },
     {
       model: "Genesis G70",
       price: 37000,
-      image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888",
+      image: genesisG70,
     },
     {
       model: "Infiniti Q50",
       price: 36000,
-      image: "https://images.unsplash.com/photo-1542362567-b07e54358753",
+      image: infinitiQ50,
     },
     {
       model: "Acura TLX",
       price: 37500,
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341",
+      image: acuraTLX,
     },
     {
       model: "Chrysler 300",
       price: 33000,
-      image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
+      image: chrysler300,
     },
-    // ... continuing with all 50 cars
   ];
 
   // Generate 50 cars by repeating and modifying the base models
@@ -128,7 +144,7 @@ const Inventory = () => {
           className="bg-[#007aff]"
           style={{
             background:
-              'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")',
+              `url(${bgImg})`,
           }}
         >
           <div className="p-5 mx-auto flex items-start">
@@ -365,7 +381,7 @@ const Inventory = () => {
             className="bg-[#fd0223] shadow-neutral-600 shadow-2xl bg-cover mt-5 mb-5 bg-top text-center"
             style={{
               backgroundImage:
-                'url("https://vehicleapprovalcentre.com/_next/static/media/front-lead-bg.2c0e8fe8.svg")',
+                `url(${bigBg})`,
               backgroundSize: "110%",
             }}
           >
@@ -375,7 +391,7 @@ const Inventory = () => {
                   <div className="mx-5 mt-6 mb-5 shadow-neutral-600 shadow-2xl rounded-lg  px-4 bg-gray-100 py-5 ">
                     <section className="sm:flex-row  flex-col flex items-center mx-4 justify-between ">
                       <img
-                        src="https://cfctradein.azureedge.net/images/carfax-canada-logo-black.svg"
+                        src={caraLogo}
                         alt="Carfax Canada Logo"
                         className
                       />

@@ -42,7 +42,7 @@ const SupportContent = () => {
           </div>
         </div>
         <footer className="flex items-center justify-center mt-12 " id="portal-layout-footer">
-          <a className="flex items-center space-x-2 text-gray-400 hover:text-[#fd0223]" target="_blank" rel="noopener noreferrer" href="https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service_desk_portal_footer&utm_content=vehicleapprovalcentre">
+          <a className="flex items-center space-x-2 text-gray-400 hover:text-[#fd0223]" target="_blank" rel="noopener noreferrer" href="#">
             <span>Powered by</span>
             <img className="h-5 w-auto" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IHgxPSIzOC4wNCUiIHkxPSI2LjY0JSIgeDI9IjU5Ljg2JSIgeTI9IjYzLjc4JSIgaWQ9ImEiPjxzdG9wIHN0b3AtY29sb3I9IiMzNDQ1NjMiIG9mZnNldD0iMCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjNUU2Qzg0IiBvZmZzZXQ9IjEwMCUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0tOS02aDMydjMySC05eiIvPjxnIGZpbGwtcnVsZT0ibm9uemVybyI+PHBhdGggZD0iTTguOTMgNy41Nmw1LjIuMDJhLjgxLjgxIDAgMCAxIC42NSAxLjNMNy4wOSAxOS4xNEE1LjQ2IDUuNDYgMCAwIDEgNiAxMS41bDIuOTQtMy45NHoiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJNNS45OCAxMS41bC01LjE3LS4wNGEuODEuODEgMCAwIDEtLjY1LTEuM0w3Ljc3IDBhNS40NiA1LjQ2IDAgMCAxIDEuMTEgNy42NGwtMi45IDMuODZ6IiBmaWxsPSIjNUU2Qzg0Ii8+PC9nPjwvZz48L3N2Zz4K" alt="Jira Logo" />
             <span>Jira Service Management</span>
