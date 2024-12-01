@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SocialContact = () => {
   return (
@@ -18,7 +19,7 @@ const SocialContact = () => {
                 </div>
                 <div>
                   <div className="flex items-center gap-1">
-                    <a href="#" className="text-xs sm:text-xl font-semibold text-gray-900 hover:underline" title="@vehicleapprovalcentre" target="_blank" rel="noopener noreferrer nofollow"> Vehicle Approval Centre </a>
+                    <a href="#" className="text-xs sm:text-xl font-semibold text-gray-900 hover:underline" title="@vehicleapprovalcentre" target="_blank" rel="noopener noreferrer nofollow"> Auto Mart </a>
                     <span className="h-4 w-4" title="Verified">
                       <svg width={16} height={16} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="mt-[0.1em] text-[#fd0223]">
                         <path d="M5.79131 0.202079C5.90764 0.0894369 6.09236 0.0894369 6.20869 0.202079L7.15665 1.12C7.23117 1.19217 7.33769 1.22071 7.43831 1.19547L8.71823 0.874508C8.87529 0.835121 9.03527 0.927484 9.07969 1.0832L9.44168 2.35212C9.47014 2.45188 9.54812 2.52986 9.64788 2.55831L10.9168 2.92031C11.0725 2.96473 11.1649 3.12471 11.1255 3.28177L10.8045 4.56169C10.7793 4.66231 10.8078 4.76883 10.88 4.84335L11.7979 5.79131C11.9106 5.90764 11.9106 6.09236 11.7979 6.20869L10.88 7.15665C10.8078 7.23117 10.7793 7.33769 10.8045 7.43831L11.1255 8.71823C11.1649 8.87529 11.0725 9.03527 10.9168 9.07969L9.64788 9.44168C9.54812 9.47014 9.47014 9.54812 9.44168 9.64788L9.07969 10.9168C9.03527 11.0725 8.87529 11.1649 8.71823 11.1255L7.43831 10.8045C7.33769 10.7793 7.23117 10.8078 7.15665 10.88L6.20869 11.7979C6.09236 11.9106 5.90764 11.9106 5.79131 11.7979L4.84335 10.88C4.76883 10.8078 4.66231 10.7793 4.56169 10.8045L3.28177 11.1255C3.12471 11.1649 2.96473 11.0725 2.92031 10.9168L2.55831 9.64788C2.52986 9.54812 2.45188 9.47014 2.35212 9.44168L1.0832 9.07969C0.927484 9.03527 0.835121 8.87529 0.874508 8.71823L1.19547 7.43831C1.22071 7.33769 1.19217 7.23117 1.12 7.15665L0.202079 6.20869C0.0894369 6.09236 0.0894369 5.90764 0.202079 5.79131L1.12 4.84335C1.19217 4.76883 1.22071 4.66231 1.19547 4.56169L0.874508 3.28177C0.835121 3.12471 0.927484 2.96473 1.0832 2.92031L2.35212 2.55831C2.45188 2.52986 2.52986 2.45188 2.55831 2.35212L2.92031 1.0832C2.96473 0.927484 3.12471 0.835121 3.28177 0.874508L4.56169 1.19547C4.66231 1.22071 4.76883 1.19217 4.84335 1.12L5.79131 0.202079Z" fill="currentColor" />
@@ -63,7 +64,7 @@ const SocialContact = () => {
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-iad3-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F468056146_1106481758153892_211029457469783453_n.jpg%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3D18de74%26_nc_ohc%3DeRFoJpC6FWAQ7kNvgH9e_mT%26_nc_zt%3D23%26_nc_ht%3Dscontent-iad3-1.cdninstagram.com%26edm%3DAM6HXa8EAAAA%26_nc_gid%3DA9Lz4VMoSNIGs7vlGMmh0jw%26oh%3D00_AYAd6yLltexxxRsYjqRrijMkFgBjoeGSr2SatW4srifZXQ%26oe%3D67492A00" alt="Another round of happy customers!" />
+                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -90,7 +91,7 @@ const SocialContact = () => {
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-iad3-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F468056146_1106481758153892_211029457469783453_n.jpg%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3D18de74%26_nc_ohc%3DeRFoJpC6FWAQ7kNvgH9e_mT%26_nc_zt%3D23%26_nc_ht%3Dscontent-iad3-1.cdninstagram.com%26edm%3DAM6HXa8EAAAA%26_nc_gid%3DA9Lz4VMoSNIGs7vlGMmh0jw%26oh%3D00_AYAd6yLltexxxRsYjqRrijMkFgBjoeGSr2SatW4srifZXQ%26oe%3D67492A00" alt="Another round of happy customers!" />
+                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -117,7 +118,7 @@ const SocialContact = () => {
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-iad3-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F468056146_1106481758153892_211029457469783453_n.jpg%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3D18de74%26_nc_ohc%3DeRFoJpC6FWAQ7kNvgH9e_mT%26_nc_zt%3D23%26_nc_ht%3Dscontent-iad3-1.cdninstagram.com%26edm%3DAM6HXa8EAAAA%26_nc_gid%3DA9Lz4VMoSNIGs7vlGMmh0jw%26oh%3D00_AYAd6yLltexxxRsYjqRrijMkFgBjoeGSr2SatW4srifZXQ%26oe%3D67492A00" alt="Another round of happy customers!" />
+                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -144,7 +145,7 @@ const SocialContact = () => {
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-iad3-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F468056146_1106481758153892_211029457469783453_n.jpg%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3D18de74%26_nc_ohc%3DeRFoJpC6FWAQ7kNvgH9e_mT%26_nc_zt%3D23%26_nc_ht%3Dscontent-iad3-1.cdninstagram.com%26edm%3DAM6HXa8EAAAA%26_nc_gid%3DA9Lz4VMoSNIGs7vlGMmh0jw%26oh%3D00_AYAd6yLltexxxRsYjqRrijMkFgBjoeGSr2SatW4srifZXQ%26oe%3D67492A00" alt="Another round of happy customers!" />
+                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -171,7 +172,7 @@ const SocialContact = () => {
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-iad3-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F468056146_1106481758153892_211029457469783453_n.jpg%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3D18de74%26_nc_ohc%3DeRFoJpC6FWAQ7kNvgH9e_mT%26_nc_zt%3D23%26_nc_ht%3Dscontent-iad3-1.cdninstagram.com%26edm%3DAM6HXa8EAAAA%26_nc_gid%3DA9Lz4VMoSNIGs7vlGMmh0jw%26oh%3D00_AYAd6yLltexxxRsYjqRrijMkFgBjoeGSr2SatW4srifZXQ%26oe%3D67492A00" alt="Another round of happy customers!" />
+                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -198,7 +199,7 @@ const SocialContact = () => {
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-iad3-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F468056146_1106481758153892_211029457469783453_n.jpg%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3D18de74%26_nc_ohc%3DeRFoJpC6FWAQ7kNvgH9e_mT%26_nc_zt%3D23%26_nc_ht%3Dscontent-iad3-1.cdninstagram.com%26edm%3DAM6HXa8EAAAA%26_nc_gid%3DA9Lz4VMoSNIGs7vlGMmh0jw%26oh%3D00_AYAd6yLltexxxRsYjqRrijMkFgBjoeGSr2SatW4srifZXQ%26oe%3D67492A00" alt="Another round of happy customers!" />
+                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -225,7 +226,7 @@ const SocialContact = () => {
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-iad3-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F468056146_1106481758153892_211029457469783453_n.jpg%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3D18de74%26_nc_ohc%3DeRFoJpC6FWAQ7kNvgH9e_mT%26_nc_zt%3D23%26_nc_ht%3Dscontent-iad3-1.cdninstagram.com%26edm%3DAM6HXa8EAAAA%26_nc_gid%3DA9Lz4VMoSNIGs7vlGMmh0jw%26oh%3D00_AYAd6yLltexxxRsYjqRrijMkFgBjoeGSr2SatW4srifZXQ%26oe%3D67492A00" alt="Another round of happy customers!" />
+                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -252,7 +253,7 @@ const SocialContact = () => {
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-iad3-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F468056146_1106481758153892_211029457469783453_n.jpg%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3D18de74%26_nc_ohc%3DeRFoJpC6FWAQ7kNvgH9e_mT%26_nc_zt%3D23%26_nc_ht%3Dscontent-iad3-1.cdninstagram.com%26edm%3DAM6HXa8EAAAA%26_nc_gid%3DA9Lz4VMoSNIGs7vlGMmh0jw%26oh%3D00_AYAd6yLltexxxRsYjqRrijMkFgBjoeGSr2SatW4srifZXQ%26oe%3D67492A00" alt="Another round of happy customers!" />
+                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -278,7 +279,7 @@ const SocialContact = () => {
     </div>
   </div>
   <div className="flex sm:w-96 justify-center md:text-2xl  mt-12 items-center mx-auto ">
-  <a id="apply-mobile" className="w-full  mx-3 mb-2 mt-3 duration-300 rounded-xl px-10 py-5 text-center bg-[#fd0223] text-white  shadow-md hover:bg-[#fd0223]" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} href="/apply-now">GET APPROVED NOW!</a>
+  <Link id="apply-mobile" className="w-full  mx-3 mb-2 mt-3 duration-300 rounded-xl px-10 py-5 text-center bg-[#fd0223] text-white  shadow-md hover:bg-[#fd0223]" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} to="/approved">GET APPROVED NOW!</Link>
 </div>
 <div className=" md:flex hidden  lg:flex xl:flex justify-center mb-4">
   <h3 className="text-center mb-4 md:flex hidden  mt-7 gap-2 text-[#fd0223]">

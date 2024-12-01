@@ -1,5 +1,6 @@
 import React from 'react';
 import Mob from '../assets/mobiles.jpg'
+import { Link } from 'react-router-dom';
 
 const ThreeEasySteps = () => {
   return (
@@ -58,7 +59,7 @@ const ThreeEasySteps = () => {
                 <img src={Mob} alt="Steps on your phone" className="lg:w-[80%] mx-auto " />
               </div>
               <div className="hidden lg:flex  justify-center items-center mx-auto ">
-                <a id="apply-desktop" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} className=" rounded-xl px-24 text-xl   py-6 bg-[#fd0223] text-white hover:bg-[#fd0223] duration-300" href="/#">GET APPROVED NOW!</a>
+                <Link id="apply-desktop" style={{boxShadow: '0 .3rem 1rem rgba(0, 0, 0, .5)'}} className=" rounded-xl px-24 text-xl   py-6 bg-[#fd0223] text-white hover:bg-[#fd0223] duration-300" to="/approved">GET APPROVED NOW!</Link>
               </div>
             </div>
           </div>

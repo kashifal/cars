@@ -24,7 +24,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/inventory" element={<Inventory />} />
         <Route path="/clearance" element={<Clearance />} />
-        <Route path="/volkswagen" element={<Volkswagen />} />
+        <Route path="/volkswagen/:carId" element={<Volkswagen />} />
         <Route path="/approved" element={<Approved />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<Terms />} />

@@ -17,7 +17,7 @@ const SupportContent = () => {
                 <div className="mt-2 space-y-2 text-center sm:-ml-24 sm:text-start">
                   <div className="text-lg font-medium text-gray-600">How can we help?</div>
                   <div className="text-gray-500">
-                    <p>Search Vehicle Approval Centre Support</p>
+                    <p>Search Auto Mart Support</p>
                   </div>
                 </div>
                 <div className="mt-2 h-0 w-full border-0 border-gray-300">
