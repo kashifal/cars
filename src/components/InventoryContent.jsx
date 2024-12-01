@@ -333,6 +333,7 @@ const Inventory = () => {
         <div className="lg:w-[67%] p-4">
           <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 ">
             {extendedCarModels.map((car) => (
+              <Link to={`/volkswagen/${car.id}`} state={{ car: car }}>
               <div key={car.id} className="border rounded-lg shadow-md">
                 <img
                   src={car.image}
@@ -357,6 +358,7 @@ const Inventory = () => {
                   </Link>
                 </div>
               </div>
+              </Link>
             ))}
           </div>
           <div
