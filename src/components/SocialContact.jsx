@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.jpeg'
 
 const SocialContact = () => {
   return (
@@ -14,7 +15,7 @@ const SocialContact = () => {
               <div className="flex items-center">
                 <div className="mr-2">
                   <a href="#" title="@vehicleapprovalcentre" target="_blank" rel="noopener noreferrer nofollow">
-                    <img className=" bg-gradient-to-b from-[#CD3087] to-[#EF7757] h-12 p-[3px] w-12 rounded-full " src="https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fkul10-1.fna.fbcdn.net%2Fv%2Ft51.2885-19%2F79378798_2382581285181311_8955072752792895488_n.jpg%3Fstp%3Ddst-jpg_s150x150_tt6%26_nc_ht%3Dinstagram.fkul10-1.fna.fbcdn.net%26_nc_cat%3D111%26_nc_ohc%3Dgp546SDnK0gQ7kNvgHg75cr%26_nc_gid%3De108b596050f42fe94b895af1d0f9dd6%26edm%3DAOQ1c0wBAAAA%26ccb%3D7-5%26oh%3D00_AYDAGj9V7_35YC6nj62FHtSlZYdcIcTTs9vnQM2qwf2UoA%26oe%3D674929D9%26_nc_sid%3D8b3546" alt="vehicleapprovalcentre" />
+                    <img className=" bg-gradient-to-b from-[#CD3087] to-[#EF7757] h-12 p-[3px] w-12 rounded-full " src={logo} alt="vehicleapprovalcentre" />
                   </a>
                 </div>
                 <div>
@@ -60,7 +61,7 @@ const SocialContact = () => {
     <div className="max-w-full xl:mx-28 mt-3 m-2">
       <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[3px]  ">
         <div className="group visible relative m-0 flex lg:h-[350px]   shrink-0 grow-0 flex-col overflow-hidden bg-white opacity-100 transition-opacity duration-200 ease-in-out">
-          <a href="https://www.instagram.com/p/DCuIRVXPp8h" target="_blank" rel="noopener noreferrer nofollow">
+          <a href="#" target="_blank" rel="noopener noreferrer nofollow">
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
