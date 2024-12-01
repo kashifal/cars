@@ -1,4 +1,7 @@
 import React from 'react';
+import bgImg from '../assets/bg.svg'
+import caraLogo from '../assets/caraLogo.svg'
+
 
 const TradeContent = () => {
   return (
@@ -6,7 +9,7 @@ const TradeContent = () => {
   <div>
      
         <div className="bg-[#fd0223] ">
-          <div className="bg-[#007aff]" style={{background: 'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")'}}>
+          <div className="bg-[#007aff]" style={{background: `url(${bgImg})`}}>
             <div className=" p-5 mx-auto flex items-start">
               <h1 className="py-10  sm:pl-20 leading-tight  font-extrabold text-white text-pretty text-2xl sm:text-5xl" style={{fontFamily: '"Gilroy", sans-serif'}}>
                 Sell or Trade Your Vehicle
@@ -40,7 +43,7 @@ const TradeContent = () => {
         </div>
         <div className="  mb-5 mx-3 sm:mx-auto md:w-[55%]   px-4 bg-[#F2F3F7] mt-14 py-5 ">
           <section className="md:flex-row  gap-2 flex-col flex items-center mx-4 justify-between ">
-            <img src="https://cfctradein.azureedge.net/images/carfax-canada-logo-black.svg" alt="Carfax Canada Logo" className />
+            <img src={caraLogo} alt="Carfax Canada Logo" className />
             <h2 className="text-xl mb-2 font-bold">Find out what your trade-in is worth.</h2>
             <button className="bg-[#fd0223] rounded hover:bg-[#fd0223] duration-300 px-6 py-2 text-white">Get Started</button>
           </section>

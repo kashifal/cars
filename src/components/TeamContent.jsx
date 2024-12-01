@@ -1,4 +1,7 @@
 import React from 'react';
+import logo from '../assets/logo.jpeg'
+import bgImg from '../assets/bg.svg'
+
 
 const TeamContent = () => {
   return (
@@ -7,7 +10,7 @@ const TeamContent = () => {
      
     </div>
     <div className="bg-[#fd0223] ">
-      <div className="bg-[#007aff]" style={{background: 'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")'}}>
+      <div className="bg-[#007aff]" style={{background: `url(${bgImg})`}}>
         <div className=" p-5 mx-auto flex items-start">
           <h1 className="py-10  sm:pl-20 leading-tight  font-extrabold text-white text-pretty text-2xl sm:text-5xl" style={{fontFamily: '"Gilroy", sans-serif'}}>
             Meet the Team
@@ -19,7 +22,7 @@ const TeamContent = () => {
       <div className="w-full sm:w-2/5 md:w-1/3 lg:w-1/5">
         <div className="m-0 shadow-2xl shadow-neutral-500 rounded-lg p-0 ">
           <div className="m-3    border-0 pt-3 p-0">
-            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src="https://vehicle-approval-centre-staff-photos.s3.ca-central-1.amazonaws.com/Justin_Jackson.jpg" alt="Justin Jackson" width={400} height={400} />
+            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src={logo} alt="Justin Jackson" width={400} height={400} />
           </div>
           <div className="p-4 text-center">
             <p className="text-[#fd0223] mb-0 pt-1 text-sm">CEO &amp; CTO</p>
@@ -46,7 +49,7 @@ const TeamContent = () => {
       <div className="w-full sm:w-2/5 md:w-1/3 lg:w-1/5">
         <div className="m-0 shadow-2xl shadow-neutral-500 rounded-lg p-0 ">
           <div className="m-3    border-0 pt-3 p-0">
-            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src="https://vehicle-approval-centre-staff-photos.s3.ca-central-1.amazonaws.com/Ryan_Warnell.jpg" alt="Justin Jackson" width={400} height={400} />
+            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src={logo} alt="Justin Jackson" width={400} height={400} />
           </div>
           <div className="p-4 text-center">
             <p className="text-[#fd0223] mb-0 pt-1 text-sm">CEO &amp; CFO</p>
@@ -79,7 +82,7 @@ const TeamContent = () => {
       <div className="w-full sm:w-2/5 md:w-1/3 lg:w-1/5">
         <div className="m-0 shadow-2xl shadow-neutral-500 rounded-lg p-0 ">
           <div className="m-3    border-0 pt-3 p-0">
-            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src="https://vehicle-approval-centre-staff-photos.s3.ca-central-1.amazonaws.com/Justin_Jackson.jpg" alt="Justin Jackson" width={400} height={400} />
+            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src={logo} alt="Justin Jackson" width={400} height={400} />
           </div>
           <div className="p-4 text-center">
             <p className="text-[#fd0223] mb-0 pt-1 text-sm">CEO &amp; CTO</p>
@@ -106,7 +109,7 @@ const TeamContent = () => {
       <div className="w-full sm:w-2/5 md:w-1/3 lg:w-1/5">
         <div className="m-0 shadow-2xl shadow-neutral-500 rounded-lg p-0 ">
           <div className="m-3    border-0 pt-3 p-0">
-            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src="https://vehicle-approval-centre-staff-photos.s3.ca-central-1.amazonaws.com/Ryan_Warnell.jpg" alt="Justin Jackson" width={400} height={400} />
+            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src={logo} alt="Justin Jackson" width={400} height={400} />
           </div>
           <div className="p-4 text-center">
             <p className="text-[#fd0223] mb-0 pt-1 text-sm">CEO &amp; CFO</p>
@@ -134,7 +137,7 @@ const TeamContent = () => {
       <div className="w-full sm:w-2/5 md:w-1/3 lg:w-1/5">
         <div className="m-0 shadow-2xl shadow-neutral-500 rounded-lg p-0 ">
           <div className="m-3    border-0 pt-3 p-0">
-            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src="https://vehicle-approval-centre-staff-photos.s3.ca-central-1.amazonaws.com/Justin_Jackson.jpg" alt="Justin Jackson" width={400} height={400} />
+            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src={logo} alt="Justin Jackson" width={400} height={400} />
           </div>
           <div className="p-4 text-center">
             <p className="text-[#fd0223] mb-0 pt-1 text-sm">CEO &amp; CTO</p>
@@ -166,7 +169,7 @@ const TeamContent = () => {
       <div className="w-full sm:w-2/5 md:w-1/3 lg:w-1/5">
         <div className="m-0 shadow-2xl shadow-neutral-500 rounded-lg p-0 ">
           <div className="m-3    border-0 pt-3 p-0">
-            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src="https://vehicle-approval-centre-staff-photos.s3.ca-central-1.amazonaws.com/Justin_Jackson.jpg" alt="Justin Jackson" width={400} height={400} />
+            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src={logo} alt="Justin Jackson" width={400} height={400} />
           </div>
           <div className="p-4 text-center">
             <p className="text-[#fd0223] mb-0 pt-1 text-sm">CEO &amp; CTO</p>
@@ -193,7 +196,7 @@ const TeamContent = () => {
       <div className="w-full sm:w-2/5 md:w-1/3 lg:w-1/5">
         <div className="m-0 shadow-2xl shadow-neutral-500 rounded-lg p-0 ">
           <div className="m-3    border-0 pt-3 p-0">
-            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src="https://vehicle-approval-centre-staff-photos.s3.ca-central-1.amazonaws.com/Ryan_Warnell.jpg" alt="Justin Jackson" width={400} height={400} />
+            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src={logo} alt="Justin Jackson" width={400} height={400} />
           </div>
           <div className="p-4 text-center">
             <p className="text-[#fd0223] mb-0 pt-1 text-sm">CEO &amp; CFO</p>
@@ -221,7 +224,7 @@ const TeamContent = () => {
       <div className="w-full sm:w-2/5 md:w-1/3 lg:w-1/5">
         <div className="m-0 shadow-2xl shadow-neutral-500 rounded-lg p-0 ">
           <div className="m-3    border-0 pt-3 p-0">
-            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src="https://vehicle-approval-centre-staff-photos.s3.ca-central-1.amazonaws.com/Justin_Jackson.jpg" alt="Justin Jackson" width={400} height={400} />
+            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src={logo} alt="Justin Jackson" width={400} height={400} />
           </div>
           <div className="p-4 text-center">
             <p className="text-[#fd0223] mb-0 pt-1 text-sm">CEO &amp; CTO</p>
@@ -248,7 +251,7 @@ const TeamContent = () => {
       <div className="w-full sm:w-2/5 md:w-1/3 lg:w-1/5">
         <div className="m-0 shadow-2xl shadow-neutral-500 rounded-lg p-0 ">
           <div className="m-3    border-0 pt-3 p-0">
-            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src="https://vehicle-approval-centre-staff-photos.s3.ca-central-1.amazonaws.com/Ryan_Warnell.jpg" alt="Justin Jackson" width={400} height={400} />
+            <img className="h-auto w-full rounded-full  shadow-lg shadow-neutral-500 bg-white " src={logo} alt="Justin Jackson" width={400} height={400} />
           </div>
           <div className="p-4 text-center">
             <p className="text-[#fd0223] mb-0 pt-1 text-sm">CEO &amp; CFO</p>

@@ -1,5 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import caraLogo from '../assets/caraLogo.svg'
+import bgImg from '../assets/bg.svg'
 
 const VolkswagenContent = () => {
   const location = useLocation();
@@ -14,10 +16,7 @@ const VolkswagenContent = () => {
       <div className="bg-[#fd0223] mt-20">
         <div
           className="bg-[#007aff]"
-          style={{
-            background:
-              'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")',
-          }}
+          style={{background: `url(${bgImg})`}}
         >
           <div className="p-5 mx-auto flex items-start">
             <h1
@@ -69,7 +68,7 @@ const VolkswagenContent = () => {
 
             </div>
             <div class="mt-28 mx-2 flex flex-col ">
-              <img src="https://vehicleapprovalcentre.com/_next/static/media/carfax-logo.8bce769a.png" class="w-44 mb-5" />
+              <img src={caraLogo} class="w-44 mb-5" />
               <button type="button" class="rounded bg-gray-100  text-base py-3 font-bold text-gray-800 w-56 shadow-2xl shadow-black border border-[#fd0223] hover:bg-gray-200">Request History Report</button>
             </div>
           </div>

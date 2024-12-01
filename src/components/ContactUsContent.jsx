@@ -1,12 +1,14 @@
 import React from 'react';
+import Mob from '../assets/ContactMob.jpg'
+import bigBg from '../assets/bigBg.svg'
 
 const ContactUsContent = () => {
   return (
     <div>
       <div>
        
-        <div className="bg-[#fd0223] bg-[url('https://vehicleapprovalcentre.com/_next/static/media/front-lead-bg.2c0e8fe8.svg')]">
-          <div className="bg-[#007aff]" style={{background: 'url("")'}}>
+        <div className={`bg-[#fd0223] h-full`}  >
+          <div className="bg-[#007aff] h-full bg-cover bg-center"  style={{background: `url(${bigBg})` }}>
             <div className=" p-5 mx-auto flex items-start">
               <h1 className="py-10  sm:pl-20 leading-tight  font-extrabold text-white text-pretty text-2xl sm:text-5xl" style={{fontFamily: '"Gilroy", sans-serif'}}>
                 Contact Us
@@ -54,7 +56,7 @@ const ContactUsContent = () => {
               </div>
             </div>
             <div className="lg:flex col-span-4 hidden w-full    ">
-              <img src="https://vehicleapprovalcentre.com/_next/static/media/phone-to-home.c8d7392b.png" alt="  " />
+              <img src={Mob} className='rounded-[50px]' alt="  " />
             </div>
           </div>
         </div>

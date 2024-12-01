@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import fstImg from '../assets/img1.webp'
+import fstImg2 from '../assets/img2.webp'
+import fstImg3 from '../assets/img3.webp'
+import fstImg4 from '../assets/img4.webp'
+import bigBg from '../assets/bigBg.svg'
+import caraLogo from '../assets/caraLogo.svg'
 
 const HomeHero = () => {
   return (
     <div className=" w-full lg:block">
-    <div className="bg-[#fd0223] bg-cover bg-top bg-repeat-y text-center" style={{backgroundImage: 'url("https://vehicleapprovalcentre.com/_next/static/media/front-lead-bg.2c0e8fe8.svg")', backgroundSize: '110%'}}>
+    <div className="bg-[#fd0223] bg-cover bg-top bg-repeat-y text-center" style={{backgroundImage: `url(${bigBg})`, backgroundSize: '110%'}}>
       <div className="container mx-auto w-full px-0 pb-3   lg:px-5">
         <h1 className="px-2 pt-4 text-[1.4rem] md:text-[2.5rem] sm:font-bold font-extrabold text-white lg:pt-5 xl:pt-5">The Easiest Way to Buy &amp; Trade<br />Vehicles in Atlantic Canada</h1>
         <h6 className="pb-3 pt-2 sm:pt-4 font-semibold text-white lg:pb-4 xl:pb-4">From Your Phone To Your Home - <br />Quality cars delivered to your door since 2017</h6>
@@ -26,15 +32,15 @@ const HomeHero = () => {
             </div>
             <div className="hidden overflow-hidden pb-5 pt-3 lg:col-span-2 lg:block xl:block">
               <div className="relative min-h-[200px]">
-                <img src="https://vehicleapprovalcentre.com/_next/static/media/sentra.9193c9e4.png" alt="car" className="w-72 absolute right-[400px] top-[30px] hidden md:block lg:hidden xl:block " />
-                <img src="https://vehicleapprovalcentre.com/_next/static/media/chevy.6bccb1c3.png" alt="truck" className="w-72 absolute right-[200px] top-[20px] hidden sm:block" />
-                <img src="https://vehicleapprovalcentre.com/_next/static/media/usvent.81577154.png" alt="suv" className="w-72 absolute right-[20px] top-[12px]" />
+                <img src={fstImg2} alt="car" className="w-72 absolute right-[400px] top-[30px] hidden md:block lg:hidden xl:block " />
+                <img src={fstImg} alt="truck" className="w-72 absolute right-[200px] top-[20px] hidden sm:block" />
+                <img src={fstImg3} alt="suv" className="w-72 absolute right-[20px] top-[12px]" />
               </div>
             </div>
           </div>
           <div className="mx-5 mt-6 mb-5 rounded-lg lg:block  shadow-2xl shadow-neutral-600 hidden px-10 bg-gray-100 py-5 ">
             <section className="flex items-center mx-4 justify-between">
-              <img src="https://cfctradein.azureedge.net/images/carfax-canada-logo-black.svg" alt="Carfax Canada Logo" className />
+              <img src={caraLogo} alt="Carfax Canada Logo" className />
               <h2 className="text-xl font-bold">Find out what your trade-in is worth.</h2>
               <button className="bg-[#fd0223] rounded hover:bg-[#fd0223] duration-300 px-6 py-2 text-white">Get Started</button>
             </section>

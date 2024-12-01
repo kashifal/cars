@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CardImg from '../assets/forSocial.avif'
+import bgImg from '../assets/bg.svg'
+import caraLogo from '../assets/caraLogo.svg'
+import bigBg from '../assets/bigBg.svg'
 
 const ClearanceContent = () => {
   return (
     <div>
       <div>
         <div className="bg-[#fd0223] mt-20">
-          <div className="bg-[#007aff]" style={{background: 'url("https://vehicleapprovalcentre.com/_next/static/media/header-bg.e0fe274e.svg")'}}>
+          <div className="bg-[#007aff]" style={{background: `url(${bgImg})`}}>
             <div className=" p-5 mx-auto flex items-start">
               <h1 className="py-10  sm:pl-20  font-extrabold text-white text-5xl" style={{fontFamily: '"Gilroy", sans-serif'}}>
                 Clearance
@@ -19,7 +23,7 @@ const ClearanceContent = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-5 xl:mx-28">
           {[...Array(4)].map((_, index) => ({
-            img: `https://vehicle-approval-centre-images.s3.ca-central-1.amazonaws.com/1V2BR2CA6NC562889-0.jpg`,
+            img: CardImg,
             name: "Honda Odyssey 2022",
             model: "EX-L",
             price: "45,995.00", 
@@ -45,13 +49,13 @@ const ClearanceContent = () => {
           ))}
           
         </div>
-        <div className="bg-[#fd0223] xl:mx-28 shadow-neutral-600 shadow-2xl bg-cover mt-5 mb-5 bg-top text-center" style={{backgroundImage: 'url("https://vehicleapprovalcentre.com/_next/static/media/front-lead-bg.2c0e8fe8.svg")', backgroundSize: '110%'}}>
+        <div className="bg-[#fd0223] xl:mx-28 shadow-neutral-600 shadow-2xl bg-cover mt-5 mb-5 bg-top text-center" style={{backgroundImage: `url(${bigBg})`, backgroundSize: '110%'}}>
       <div className="pt-3  w-full">
         <div className>
           <div className>
             <div className="mx-5 mt-6 mb-5 shadow-neutral-600 shadow-2xl rounded-lg  px-4 bg-gray-100 py-5 ">
               <section className="sm:flex-row  flex-col flex items-center mx-4 justify-between ">
-                <img src="https://cfctradein.azureedge.net/images/carfax-canada-logo-black.svg" alt="Carfax Canada Logo" className />
+                <img src={caraLogo} alt="Carfax Canada Logo" className />
                 <h2 className="text-xl mb-2 font-bold">Find out what your trade-in is worth.</h2>
                 <button className="bg-[#fd0223] rounded hover:bg-[#fd0223] duration-300 px-6 py-2 text-white">Get Started</button>
               </section>

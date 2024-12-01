@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from '../assets/logo.jpeg'
 import { Link } from 'react-router-dom';
+import caraLogo from '../assets/caraLogo.svg'
+
+
 const Footer = () => {
   return (
     <footer className="bg-[#fd0223] py-6 pb-28 sm:px-16">
@@ -47,7 +50,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 flex mr-2 sm:mr-7 justify-end">
           <a href="#" className="bg-white text-black sm:flex  items-center gap-3 px-6 py-5 rounded-lg shadow-lg hover:bg-gray-100">
-            <img src="	https://cfctradein.azureedge.net/images/carfax-canada-logo-black.svg" alt="Carfax" className="h-7" />
+            <img src={caraLogo} alt="Carfax" className="h-7" />
             <span className="font-medium w-36">Find out what your trade-in is worth.</span>
             <span className="ml-2 font-bold"><svg xmlns="http://www.w3.org/2000/svg" width=".7em" height="1em" viewBox="0 0 1024 1024"><path fill="black" d="M271.653 1023.192c-8.685 0-17.573-3.432-24.238-10.097c-13.33-13.33-13.33-35.144 0-48.474L703.67 508.163L254.08 58.573c-13.33-13.331-13.33-35.145 0-48.475s35.143-13.33 48.473 0L776.38 483.925c13.33 13.33 13.33 35.143 0 48.473l-480.492 480.694c-6.665 6.665-15.551 10.099-24.236 10.099z" /></svg></span>
           </a>

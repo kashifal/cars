@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.jpeg'
+import CardImg from '../assets/forSocial.avif'
 
 const SocialContact = () => {
   return (
@@ -65,7 +66,7 @@ const SocialContact = () => {
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
+                <img className="h-auto w-full" src={CardImg} alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -88,11 +89,11 @@ const SocialContact = () => {
           </a>
         </div>
         <div className="group visible relative m-0 flex lg:h-[350px]  shrink-0 grow-0 flex-col overflow-hidden bg-white opacity-100 transition-opacity duration-200 ease-in-out">
-          <a href="https://www.instagram.com/p/DCuIRVXPp8h" target="_blank" rel="noopener noreferrer nofollow">
+          <a href="" target="_blank" rel="noopener noreferrer nofollow">
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
+                <img className="h-auto w-full"    src={CardImg} alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -115,11 +116,11 @@ const SocialContact = () => {
           </a>
         </div>
         <div className="group visible relative m-0 flex  lg:h-[350px] shrink-0 grow-0 flex-col overflow-hidden bg-white opacity-100 transition-opacity duration-200 ease-in-out">
-          <a href="https://www.instagram.com/p/DCuIRVXPp8h" target="_blank" rel="noopener noreferrer nofollow">
+          <a href="" target="_blank" rel="noopener noreferrer nofollow">
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
+                <img className="h-auto w-full"    src={CardImg} alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -142,11 +143,11 @@ const SocialContact = () => {
           </a>
         </div>
         <div className="group visible relative m-0 flex lg:h-[350px] shrink-0 grow-0 flex-col overflow-hidden bg-white opacity-100 transition-opacity duration-200 ease-in-out">
-          <a href="https://www.instagram.com/p/DCuIRVXPp8h" target="_blank" rel="noopener noreferrer nofollow">
+          <a href="" target="_blank" rel="noopener noreferrer nofollow">
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
+                <img className="h-auto w-full"    src={CardImg} alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -169,11 +170,11 @@ const SocialContact = () => {
           </a>
         </div>
         <div className="group visible relative m-0 flex lg:h-[350px] shrink-0 grow-0 flex-col overflow-hidden bg-white opacity-100 transition-opacity duration-200 ease-in-out">
-          <a href="https://www.instagram.com/p/DCuIRVXPp8h" target="_blank" rel="noopener noreferrer nofollow">
+          <a href="" target="_blank" rel="noopener noreferrer nofollow">
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
+                <img className="h-auto w-full"    src={CardImg} alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -196,11 +197,11 @@ const SocialContact = () => {
           </a>
         </div>
         <div className="group visible relative m-0 flex lg:h-[350px] shrink-0 grow-0 flex-col overflow-hidden bg-white opacity-100 transition-opacity duration-200 ease-in-out">
-          <a href="https://www.instagram.com/p/DCuIRVXPp8h" target="_blank" rel="noopener noreferrer nofollow">
+          <a href="" target="_blank" rel="noopener noreferrer nofollow">
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
+                <img className="h-auto w-full"    src={CardImg} alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -223,11 +224,11 @@ const SocialContact = () => {
           </a>
         </div>
         <div className="group visible relative m-0 flex lg:h-[350px] shrink-0 grow-0 flex-col overflow-hidden bg-white opacity-100 transition-opacity duration-200 ease-in-out">
-          <a href="https://www.instagram.com/p/DCuIRVXPp8h" target="_blank" rel="noopener noreferrer nofollow">
+          <a href="" target="_blank" rel="noopener noreferrer nofollow">
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
+                <img className="h-auto w-full"    src={CardImg} alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />
@@ -250,11 +251,11 @@ const SocialContact = () => {
           </a>
         </div>
         <div className="group visible relative m-0 flex lg:h-[350px] shrink-0 grow-0 flex-col overflow-hidden bg-white opacity-100 transition-opacity duration-200 ease-in-out">
-          <a href="https://www.instagram.com/p/DCuIRVXPp8h" target="_blank" rel="noopener noreferrer nofollow">
+          <a href="" target="_blank" rel="noopener noreferrer nofollow">
             <div className="relative">
               {/* Image Wrapper */}
               <div className="relative">
-                <img className="h-auto w-full" src="https://images.unsplash.com/photo-1708805282696-1afa5e01d1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Another round of happy customers!" />
+                <img className="h-auto w-full"    src={CardImg} alt="Another round of happy customers!" />
                 <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   <svg className="h-4 w-4 text-gray-600" viewBox="0 0 24 24">
                     <path d="M23.467,5.762c-0.118-0.045-0.232-0.068-0.342-0.068c-0.246,0-0.451,0.087-0.615,0.26l-3.76,3.217v5.766l3.76,3.578c0.164,0.173,0.369,0.26,0.615,0.26c0.109,0,0.223-0.023,0.342-0.068C23.822,18.552,24,18.284,24,17.901V6.57C24,6.186,23.822,5.917,23.467,5.762z" />

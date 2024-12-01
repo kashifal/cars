@@ -1,4 +1,6 @@
 import React from 'react';
+import td from '../assets/Td.png'
+import rbc from '../assets/rbc.png'
 
 const VehicleContent = () => {
   return (
@@ -24,12 +26,12 @@ const VehicleContent = () => {
         <div className="mx-auto justify-center p-2 text-center md:max-w-7xl">
           <h1 className="text-2xl font-semibold">We find the best deal at the best bank so you don't have to</h1>
           <div className="flex cursor-pointer flex-wrap justify-center gap-5 py-5">
-            <img src="https://allcreditcarloans.com/img/logos/TDAF-logo.png" alt="" className="rounded-lg" />
-            <img src="https://allcreditcarloans.com/img/logos/RBC-logo.png" alt="" className />
-            <img src="https://allcreditcarloans.com/img/logos/TDAF-logo.png" alt="" className="rounded-lg" />
-            <img src="https://allcreditcarloans.com/img/logos/RBC-logo.png" alt="" className />
-            <img src="https://allcreditcarloans.com/img/logos/TDAF-logo.png" alt="" className="rounded-lg" />
-            <img src="https://allcreditcarloans.com/img/logos/RBC-logo.png" alt="" className />
+            <img src={td} alt="" className="rounded-lg" />
+            <img src={rbc} alt="" className />
+            <img src={td} alt="" className="rounded-lg" />
+            <img src={rbc} alt="" className />
+            <img src={td} alt="" className="rounded-lg" />
+            <img src={rbc} alt="" className />
           </div>
         </div>
         <div className=" flex flex-col mt-20 text-center px-1 items-center justify-center pb-10 md:pb-0">
@@ -46,7 +48,7 @@ const VehicleContent = () => {
           <div className="flex   lg:flex-row text-center flex-col gap-5 justify-between  mx-auto px-8  items-center py-10 bg-[#F9F9FB]">
             <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
               <div className>
-                <img src="https://allcreditcarloans.com/img/logos/TDAF-logo.png" className="rounded-xl w-14" alt="" />
+                <img src={td} className="rounded-xl w-14" alt="" />
               </div>
               <div className="text-center md:text-start">
                 <h1 className="font-bold text-lg">TD Auto Finance</h1>
